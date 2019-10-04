@@ -4,7 +4,7 @@ Import-Module "$($PSScriptRoot)\..\Modules\StopStart.psm1" -Force
 #endregion
 
 # Get configuration from json file.
-$conf = Get-Content "$($PSScriptRoot)\..\Config\conf.json" | ConvertFrom-Json
+$conf = Get-Content "$($PSScriptRoot)\..\Config\Conf.json" | ConvertFrom-Json
 
 try {
     Stop-Minecraft
