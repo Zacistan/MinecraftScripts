@@ -1,0 +1,9 @@
+{
+    "ServerJar": "/home/zrobinson/mcserver/server.jar",
+    "MBsOfAllocatedRam": "8000",
+    "Backup": {
+        "BackupDirectory": "/home/zrobinson/worldbackups",
+        "WorldDirectory": "/home/zrobinson/mcserver/world",
+        "ArchiveDirectory": "/home/zrobinson/worldarchives"
+    }
+}
